@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="大学生生成式人工智能信息判断与依赖校准研究：启动准备、任务与里程碑。">
+  <meta name="theme-color" content="#173f3a">
+  <title>依赖校准研究 · 项目进度</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="项目概览"><span class="brand-symbol" aria-hidden="true">↗</span><span>依赖校准研究<small>RESEARCH PROGRESS</small></span></a>
+    <div class="sidebar-project">2026 年度校级<br>基本科研业务费项目</div>
+    <nav aria-label="页面导航">
+      <a class="nav-link active" href="#overview"><span>01</span>项目概览</a>
+      <a class="nav-link" href="#tasks"><span>02</span>任务清单</a>
+      <a class="nav-link" href="#plan"><span>03</span>启动四周</a>
+      <a class="nav-link" href="#roadmap"><span>04</span>研究路线</a>
+      <a class="nav-link" href="#guide"><span>05</span>更新进度</a>
+    </nav>
+    <div class="sidebar-note"><span class="small-dot"></span><span id="sidebar-status">当前：申报／审批中</span><p>从准备到证据，<br>让每一步可以追溯。</p><a href="https://github.com/psychelzh/ai-reliance-calibration-tracker" target="_blank" rel="noopener noreferrer">查看 GitHub 仓库 ↗</a></div>
+  </aside>
+  <main id="main">
+    <header class="topbar"><span>研究管理 / 项目工作台</span><a href="https://github.com/psychelzh/ai-reliance-calibration-tracker/issues" target="_blank" rel="noopener noreferrer">管理任务 ↗</a></header>
+    <section id="overview" class="hero section-anchor">
+      <div class="eyebrow">PROJECT NOTEBOOK <span>2026 / 11</span></div>
+      <div class="hero-top"><div><h1>生成式 AI 信息判断<br>与依赖校准</h1><p class="hero-subtitle">大学生行为实验 · 项目进度追踪</p></div><div class="project-mark" aria-hidden="true"><span class="mark-line"></span><span class="mark-circle"></span><span class="mark-point"></span><span class="mark-word">EVIDENCE<br>→ JUDGMENT</span></div></div>
+      <div class="hero-footer"><span id="project-status" class="pill">申报／审批中</span><span id="cycle">正式周期待批复</span><span class="hero-date">准备起点 2026.11.02</span></div>
+    </section>
+    <div class="notice"><span class="notice-icon" aria-hidden="true">i</span><p id="status-note">当前开展内部准备。正式立项、执行周期及伦理批准待确认。</p></div>
+    <div id="data-message" class="data-message" role="status" aria-live="polite">正在载入任务记录…</div>
+    <section class="stats" aria-label="任务概况">
+      <div class="stat"><span>已验收任务</span><strong id="stat-done">—</strong><small id="stat-total">正在读取任务</small></div>
+      <div class="stat"><span>进行中</span><strong id="stat-doing">—</strong><small>已有明确的当前动作</small></div>
+      <div class="stat"><span>等待条件／受阻</span><strong id="stat-waiting">—</strong><small>包含审批与前置任务</small></div>
+      <div class="stat stat-focus"><span>当前关注</span><strong>启动准备</strong><small>真实参与者研究尚未启动</small></div>
+    </section>
+    <section class="panel journey-panel" aria-labelledby="journey-title"><div class="section-heading"><div><span class="eyebrow">MILESTONES</span><h2 id="journey-title">七个阶段，一条研究主线</h2></div><span class="muted">阶段可并行 · 日期待正式确认</span></div><div id="phase-journey" class="phase-journey"></div><p class="footnote">完成数表示管理任务验收，不代表科研完成比例。实验 2 的实施不以实验 1 的显著性为条件。</p></section>
+    <section class="next-section" aria-labelledby="next-title"><div class="section-heading"><div><span class="eyebrow">NEXT ACTIONS</span><h2 id="next-title">接下来，可以先做</h2></div><a href="#tasks">查看全部任务 ↓</a></div><div id="next-actions" class="next-grid"></div></section>
+    <section id="tasks" class="panel task-panel section-anchor" aria-labelledby="tasks-title">
+      <div class="section-heading"><div><span class="eyebrow">TASK REGISTER</span><h2 id="tasks-title">任务清单</h2></div><button id="refresh" class="button button-outline" type="button">↻ 刷新进度</button></div>
+      <div class="filters"><label class="search-label"><span class="sr-only">搜索任务</span><input id="search" aria-label="搜索任务" type="search" placeholder="搜索任务、编号或关键词…" autocomplete="off"></label><label><span class="sr-only">按阶段筛选</span><select id="phase-filter" aria-label="按阶段筛选"><option value="all">全部阶段</option></select></label><label><span class="sr-only">按状态筛选</span><select id="status-filter" aria-label="按状态筛选"><option value="all">全部状态</option><option value="todo">待开始</option><option value="doing">进行中</option><option value="waiting">等待条件</option><option value="blocked">受阻</option><option value="done">已完成</option><option value="cancelled">已取消</option></select></label></div>
+      <div class="task-list-head"><span>任务 / 验收条件</span><span>阶段</span><span>状态</span><span>优先级</span></div><div id="task-list"></div><p id="filter-count" class="footnote" aria-live="polite"></p>
+    </section>
+    <section id="plan" class="section-anchor"><div class="section-heading"><div><span class="eyebrow">FIRST FOUR WEEKS</span><h2>把启动准备做具体</h2></div><span class="muted">2026 年 11 月 · 建议窗口</span></div><div id="weeks" class="week-grid"></div><p class="footnote">建议窗口用于内部准备，非获批执行日程。期间如仍待审批，继续材料、文献、代码和伦理附件准备。</p></section>
+    <section class="gates" aria-labelledby="gates-title"><div class="section-heading"><div><span class="eyebrow">READINESS CHECK</span><h2 id="gates-title">进入下一阶段前，核对这些条件</h2></div></div><div id="gate-list" class="gate-list"></div></section>
+    <section id="roadmap" class="panel section-anchor"><div class="section-heading"><div><span class="eyebrow">PROPOSED ROADMAP</span><h2>从材料，到实验，再到成果</h2></div><span class="tag">申报计划 · 待批复</span></div><div id="roadmap-list" class="roadmap-list"></div><p class="footnote">两项实验采用独立样本。拟定材料和样本目标须经预试、模拟及资源核对后冻结；此处未报告研究结果。</p></section>
+    <section id="guide" class="guide section-anchor"><div><span class="eyebrow">KEEP IT CURRENT</span><h2>每周更新一次，<br>留下可核验的进展。</h2><p>GitHub Issues 保存任务状态，跨设备可查看。只记录适合公开的任务摘要和完成证据。</p><a class="button button-primary" href="https://github.com/psychelzh/ai-reliance-calibration-tracker/issues" target="_blank" rel="noopener noreferrer">前往更新任务 ↗</a></div><ol><li><strong>开始推进</strong><span>给任务添加 <code>status:doing</code>，清除旧状态标签。</span></li><li><strong>等待或受阻</strong><span>使用 <code>status:waiting</code> 或 <code>status:blocked</code>，写明解除条件。</span></li><li><strong>验收并关闭</strong><span>补充不敏感的依据摘要，验收完成后关闭 Issue。</span></li><li><strong>更新项目阶段</strong><span>正式立项后修改 <a href="https://github.com/psychelzh/ai-reliance-calibration-tracker/edit/main/data/project.json" target="_blank" rel="noopener noreferrer">项目状态与周期配置 ↗</a>。</span></li></ol></section>
+    <footer><span>依赖校准研究 · 公开任务看板</span><span>申请书、题库答案与参与者数据保存在内部工作区。</span><a href="https://github.com/psychelzh/ai-reliance-calibration-tracker" target="_blank" rel="noopener noreferrer">GitHub ↗</a></footer>
+    <noscript><p class="notice">本页需要 JavaScript 展示任务。你仍可通过上方“管理任务”链接查看 GitHub Issues。</p></noscript>
+  </main>
+</body>
+</html>

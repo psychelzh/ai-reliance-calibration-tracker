@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-11-02T13:15:46.305233+00:00",
+  "repo": "psychelzh/ai-reliance-calibration-tracker",
+  "issues": [
+    {
+      "number": 25,
+      "title": "[S07] 上线并验证项目进度看板",
+      "body": "<!-- tracker:id=S07;deps=S01 -->\n\n建立公开任务摘要、跨设备状态与可用的回退快照。\n\n## 验收条件\n- [ ] GitHub Pages成功部署，任务链接、筛选及移动布局通过检查\n- [ ] Issue更新可反映到页面；API不可用时明确标注快照时间\n\n## 前置任务\nS01\n\n## 当前状态与下一步\n按验收条件执行，完成后填写适合公开的依据摘要。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:14:37Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:doing",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 24,
+      "title": "[O03] 完成研究报告与结题归档",
+      "body": "<!-- tracker:id=O03;deps=O02 -->\n\n整理证据、去标识数据、材料代码、版本和共享边界。\n\n## 验收条件\n- [ ] 可复现材料和报告归档，敏感信息受控\n- [ ] 以实际达成并获认定的成果整理结题证明\n\n## 前置任务\nO02\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:14:32Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P2",
+        "status:waiting",
+        "phase:outputs"
+      ]
+    },
+    {
+      "number": 23,
+      "title": "[O02] 推进论文、专著与执行期管理事项",
+      "body": "<!-- tracker:id=O02;deps=A02,E12,E23,O01 -->\n\n记录投稿修回、出版、资助标注和要求的管理事项。\n\n## 验收条件\n- [ ] 逐项保存实际成果与管理事项佐证\n- [ ] 依据获批文件和届时学校口径确认有效成果，必要变更按程序办理\n\n## 前置任务\nA02、E12、E23、O01\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:14:30Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P2",
+        "status:waiting",
+        "phase:outputs"
+      ]
+    },
+    {
+      "number": 22,
+      "title": "[O01] 建立专著目录与成果路线台账",
+      "body": "<!-- tracker:id=O01;deps= -->\n\n前移理论框架和出版调研，记录认定条件与替代路线。\n\n## 验收条件\n- [ ] 形成专著目录与理论／测量章节提纲\n- [ ] 核对届时学校出版及成果认定条件；申请或出版意向不标为已取得成果\n\n## 前置任务\n无。\n\n## 当前状态与下一步\n按验收条件执行，完成后填写适合公开的依据摘要。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:14:26Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P2",
+        "phase:outputs"
+      ]
+    },
+    {
+      "number": 21,
+      "title": "[E23] 完成实验 2 主要分析与论文初稿",
+      "body": "<!-- tracker:id=E23;deps=E22 -->\n\n同时检验有害采纳与最终正确率，并说明收益代价。\n\n## 验收条件\n- [ ] 两项主要结果采用Holm控制并报告方向与区间\n- [ ] 有益采纳、耗时、负担与缺失同时报告，不把未显著下降等同无损失\n\n## 前置任务\nE22；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:18Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:waiting",
+        "phase:exp2"
+      ]
+    },
+    {
+      "number": 20,
+      "title": "[E22] 完成实验 2 独立样本收集与质量记录",
+      "body": "<!-- tracker:id=E22;deps=E21 -->\n\n按批准和冻结方案执行基线与后续任务。\n\n## 验收条件\n- [ ] 采纳机会由干预前基线定义，不因核查正确与否重新筛选\n- [ ] 按停止规则执行，记录缺失、流失、成本和事后纠正\n\n## 前置任务\nE21；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:16Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:waiting",
+        "phase:exp2"
+      ]
+    },
+    {
+      "number": 19,
+      "title": "[E21] 冻结实验 2 分场、对照与预注册",
+      "body": "<!-- tracker:id=E21;deps=P02,S06 -->\n\n在共享材料校准后完成实验2专门准备，独立于实验1显著性。\n\n## 验收条件\n- [ ] 完成核查与主题识别、分场时长及流失的试测复核\n- [ ] 冻结基线后随机化流程、主要结果与停止规则，完成独立预注册\n\n## 前置任务\nP02、S06；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:14Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:waiting",
+        "phase:exp2"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "[E12] 完成实验 1 主要分析与论文初稿",
+      "body": "<!-- tracker:id=E12;deps=E11 -->\n\n估计概率尺度主要对比，报告稳健性与探索分析。\n\n## 验收条件\n- [ ] 报告效应量、区间、机会分母和模型处理\n- [ ] 按预注册分析并说明偏离，完成可复现脚本与论文初稿\n\n## 前置任务\nE11；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:12Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:waiting",
+        "phase:exp1"
+      ]
+    },
+    {
+      "number": 17,
+      "title": "[E11] 完成实验 1 独立样本收集与质量记录",
+      "body": "<!-- tracker:id=E11;deps=P03 -->\n\n按冻结方案实施，持续记录技术故障、缺失和流失。\n\n## 验收条件\n- [ ] 依预定停止规则完成，正式样本与其他阶段独立\n- [ ] 保留全部有效记录、变更日志、事后纠正和数据归档依据\n\n## 前置任务\nP03；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:10Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "status:waiting",
+        "phase:exp1"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "[P03] 冻结实验 1 材料与规则并预注册",
+      "body": "<!-- tracker:id=P03;deps=P02 -->\n\n根据预试和模拟锁定材料、程序、样本与停止规则。\n\n## 验收条件\n- [ ] 保存版本、冻结清单和主要分析方案\n- [ ] 正式收数前完成预注册，确认伦理与补偿方案匹配\n\n## 前置任务\nP02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:08:08Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:pilot"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "[P02] 完成样本、功效与精度模拟",
+      "body": "<!-- tracker:id=P02;deps=P01 -->\n\n使用预试输入评估拟定样本、题量、主要对比和流失。\n\n## 验收条件\n- [ ] 比较规划人数与效应情景，报告区间宽度、收敛和模拟误差\n- [ ] 实验2纳入多重检验；预先论证有益采纳损失界值及所需精度\n\n## 前置任务\nP01；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:57Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:pilot"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "[P01] 开展独立材料评定与程序试测",
+      "body": "<!-- tracker:id=P01;deps=A02,A04,M03,S05,S06 -->\n\n满足实施条件后，按批准方案执行独立评定和时长试测。\n\n## 验收条件\n- [ ] 立项及活动实施条件确认，伦理批准覆盖相应活动\n- [ ] 记录操纵质量、实际冲突机会、时长、流失及筛题理由；与正式样本独立\n\n## 前置任务\nA02、A04、M03、S05、S06；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:55Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:pilot"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "[S06] 跑通实验 2 基线、随机化与主动对照",
+      "body": "<!-- tracker:id=S06;deps=S04,M02 -->\n\n内部验证全部基线完成后分组，再进行建议评价。\n\n## 验收条件\n- [ ] 随机化发生在全部基线作答与信心收集之后\n- [ ] 两组相同材料、流程记录完整；正式试次无任务正误反馈；用合成数据验证\n\n## 前置任务\nS04、M02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:53Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "[S05] 跑通实验 1 程序与合成数据导出",
+      "body": "<!-- tracker:id=S05;deps=S04,M02 -->\n\n内部验证试次流程、平衡版本、顺序、记录与恢复。\n\n## 验收条件\n- [ ] 每人同题只见一个版本，建议正误和位置平衡\n- [ ] 初答、信心、材料、最终作答、耗时和缺失可完整导出；未招募真实参与者\n\n## 前置任务\nS04、M02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:51Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "[M03] 预先写定材料评定与筛选标准",
+      "body": "<!-- tracker:id=M03;deps=S02,M02 -->\n\n先明确操纵质量、可理解性、难度和保留规则。\n\n## 验收条件\n- [ ] 形成独立评定和时长试测方案\n- [ ] 筛题不依据是否出现预期交互；明确冲突机会和地板效应检查\n\n## 前置任务\nS02、M02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:49Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:materials"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "[M02] 制作措辞、证据与主动对照版本矩阵",
+      "body": "<!-- tracker:id=M02;deps=M01 -->\n\n统一事实内容，区分措辞确定性与证据诊断强度。\n\n## 验收条件\n- [ ] 同题版本和答案位置可追溯，强弱证据及关系答案复核\n- [ ] 主题识别具有唯一可判的匹配项，选项位置平衡\n\n## 前置任务\nM01；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:47Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:materials"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "[M01] 建立候选题与来源台账",
+      "body": "<!-- tracker:id=M01;deps=S03 -->\n\n先完成内部示范批次，再扩充稳定真值的二选一材料。\n\n## 验收条件\n- [ ] 内部示范批次完成双人复核\n- [ ] 候选题达到申报规划规模，逐题可定位来源和复核记录\n\n## 前置任务\nS03；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:45Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:materials"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "[S04] 确定数据字典、权限与备份规则",
+      "body": "<!-- tracker:id=S04;deps=S02 -->\n\n从字段草案形成一致的编码、存储和恢复方案。\n\n## 验收条件\n- [ ] 身份联络与行为编码分离，原始记录只读\n- [ ] 明确字段单位、缺失和派生规则；完成合成文件恢复演练\n\n## 前置任务\nS02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:43Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "[S03] 落实团队分工与复核培训",
+      "body": "<!-- tracker:id=S03;deps= -->\n\n明确材料、程序和组织工作的执行与复核角色。\n\n## 验收条件\n- [ ] 每项任务有负责人和复核人\n- [ ] 完成来源核验、数据权限和自愿参与原则的内部培训\n\n## 前置任务\n无。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:33Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P1",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "[S02] 形成可执行的研究协议 v0.1",
+      "body": "<!-- tracker:id=S02;deps=S01 -->\n\n把研究假设、流程、指标和待定参数转成执行文件。\n\n## 验收条件\n- [ ] 明确H1—H3及主要／次要／探索结果\n- [ ] 列明随机化、缺失、排除、分场、停止及模型简化规则的待定项\n\n## 前置任务\nS01；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:31Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:setup"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "[A04] 取得覆盖对应活动的伦理批准",
+      "body": "<!-- tracker:id=A04;deps=A03,S02 -->\n\n依受理条件提交，处理反馈并保存有效批准版本。\n\n## 验收条件\n- [ ] 保存正式批准和附件版本\n- [ ] 确认材料评定、程序试测、正式实验和招募的覆盖范围；需要时办理修订\n\n## 前置任务\nA03、S02；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:30Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:approval"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "[A03] 确认伦理路径并准备材料包",
+      "body": "<!-- tracker:id=A03;deps= -->\n\n确认办理渠道、受理条件及各阶段的覆盖方式。\n\n## 验收条件\n- [ ] 官方表、方案、招募、同意、退出、补偿、事后纠正与数据管理附件齐备\n- [ ] 确认错误建议设置及各阶段审查范围\n\n## 前置任务\n无。\n\n## 当前状态与下一步\n待开始；在内部工作区执行，交付后按验收条件复核。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:28Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:approval"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "[A02] 核对获批周期、资源与管理要求",
+      "body": "<!-- tracker:id=A02;deps=A01 -->\n\n按正式批复确认执行起止日期、经费、支出及变更要求。\n\n## 验收条件\n- [ ] 实际批准信息登记完整\n- [ ] 核对成果认定、资助标注和执行期间管理要求\n\n## 前置任务\nA01；依赖编号与看板中的稳定任务编号对应。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:26Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:approval"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "[A01] 跟踪申报受理与立项结果",
+      "body": "<!-- tracker:id=A01;deps= -->\n\n登记受理依据；获得正式批复后更新状态。\n\n## 验收条件\n- [ ] 保存报送／受理凭据\n- [ ] 收到结果并记录依据摘要；未获批时据实更新后续安排\n\n## 前置任务\n无。\n\n## 当前状态与下一步\n等待批复或前置任务；条件满足后再排期。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-11-02T13:07:23Z",
+      "closed_at": null,
+      "labels": [
+        "task",
+        "priority:P0",
+        "status:waiting",
+        "phase:approval"
+      ]
+    },
+    {
+      "number": 1,
+      "title": "[S01] 整理设计基线与启动准备清单",
+      "body": "<!-- tracker:id=S01;deps= -->\n\n核对当前申请书，明确审批状态、四周准备和实施条件。\n\n## 验收条件\n- [x] 形成内部启动清单与工作模板\n- [x] 申报计划、待确认事项和已完成事项分别记录\n\n## 前置任务\n无。\n\n## 当前状态与下一步\n已根据本地申请书及负责人确认状态，形成内部启动清单与工作模板。当前为申报／审批中。\n\n## 完成依据\n2026-11-02：内部《项目启动准备清单》《启动工作模板》已建立；公开仅保留任务摘要。",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2026-11-02T13:13:35Z",
+      "closed_at": "2026-11-02T13:13:35Z",
+      "labels": [
+        "task",
+        "priority:P0",
+        "phase:setup"
+      ]
+    }
+  ]
+}
