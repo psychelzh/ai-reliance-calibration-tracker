@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-11-02T13:15:46.305233+00:00",
+  "generatedAt": "2026-11-02T13:21:51.465220+00:00",
   "repo": "psychelzh/ai-reliance-calibration-tracker",
   "issues": [
     {
       "number": 25,
       "title": "[S07] 上线并验证项目进度看板",
-      "body": "<!-- tracker:id=S07;deps=S01 -->\n\n建立公开任务摘要、跨设备状态与可用的回退快照。\n\n## 验收条件\n- [ ] GitHub Pages成功部署，任务链接、筛选及移动布局通过检查\n- [ ] Issue更新可反映到页面；API不可用时明确标注快照时间\n\n## 前置任务\nS01\n\n## 当前状态与下一步\n按验收条件执行，完成后填写适合公开的依据摘要。\n\n## 完成依据\n待执行后补充适合公开的依据摘要。",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-11-02T13:14:37Z",
-      "closed_at": null,
+      "body": "<!-- tracker:id=S07;deps=S01 -->\n\n建立公开任务摘要、跨设备状态与可用的回退快照。\n\n## 验收条件\n- [x] GitHub Pages成功部署，任务链接、筛选及移动布局通过检查\n- [x] Issue更新可反映到页面；API不可用时明确标注快照时间\n\n## 前置任务\nS01（已完成）。\n\n## 当前状态与下一步\n2026-11-02已上线。后续通过Issues更新任务，通过项目配置更新获批状态与周期。\n\n## 完成依据\n- GitHub Actions首次build与deploy均成功，正式网址返回HTTP 200。\n- 25项任务、7个阶段已建立；已核对全部前置编号，实验2不依赖实验1显著性。\n- 浏览器已验证阶段／关键词／状态组合筛选及详情键盘展开。\n- 手机和桌面宽度下未发现横向溢出；已实际验证API限流时显示带日期快照。\n- 此次关闭任务将触发Issues事件部署，继续核验最终快照与状态。",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2026-11-02T13:20:57Z",
+      "closed_at": "2026-11-02T13:20:56Z",
       "labels": [
         "task",
         "priority:P1",
-        "status:doing",
         "phase:setup"
       ]
     },
