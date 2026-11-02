@@ -27,6 +27,6 @@ python scripts/build_site.py --output C:\Users\liang\.codex\cache\basic-research
 python -m http.server 8765 --bind 127.0.0.1 --directory C:\Users\liang\.codex\cache\basic-research-kickoff-20261102\preview
 ```
 
-`--offline`使用版本库中的带日期快照。部署构建始终读取最新Issues；构建失败不会用过期状态冒充最新数据。构建只打包`index.html`、`assets/`和`data/`，不把脚本或其他文件发布到网站。
+公开API限流时，本地构建可追加`--offline`使用版本库中的带日期快照。部署构建通过仓库令牌读取最新Issues；构建失败不会用过期状态冒充最新数据。构建只打包`index.html`、`assets/`和`data/`，不把脚本或其他文件发布到网站。
 
 任务验收数属于管理指标，不代表研究整体完成比例，也不表示预期结果已得到支持。
